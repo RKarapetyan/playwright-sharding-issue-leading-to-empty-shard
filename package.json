@@ -1,0 +1,17 @@
+{
+  "name": "playwright-sharding-issue-leading-to-empty-shard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "reproduction": "pnpm run test --shard=3/5"
+  },
+  "keywords": [],
+  "author": "RKarapetyan",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.3"
+  }
+}
